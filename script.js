@@ -60,6 +60,7 @@ function changeHP(count, person) {
     person.damageHP = 0;
     alert("Бедный " + person.name + " проиграл бой!");
     $btnThunder.disabled = true;
+    $btnShock.disabled = true;
   } else {
     person.damageHP -= count;
   }
